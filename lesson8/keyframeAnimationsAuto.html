@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            .square {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: squareShaper;
+                animation-duration: 5s;
+                animation-timing-function: ease-in; 
+                animation-iteration-count: 5;
+            }
+
+            @keyframes squareShaper {
+                from {
+                    background-color: red;
+                }
+
+                to {
+                    background-color: green;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="square">
+        </div>
+    </body>
+</html>
