@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* font-family: "Manrope", serif; */
+
+.logoWrapper p {
+    font-family: "Manrope", serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #DEDEDE; 
+}
+
+header {
+    background-color: #323232;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    left: 96px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-weight: bold;
+    font-family: "Manrope", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 63px;
+    position: relative;
+    right: 109px;
+}
+
+body {
+    margin: 10px 0;
+    background-color: #202020;
+}
+
+main {
+    margin-left: 96px;
+}
+
+#upperWelcomeTxt {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Manrope', 'serif';
+    color: #DEDEDE;
+    width: 600px;
+}
+
+#belowWelcomeTxt {
+    font-size: 24px;
+    font-weight: 450;
+    font-family: 'Manrope', 'serif';
+    color: #959595;
+    width: 490px;
+    position: relative;
+    bottom: 50px;
+}
+
+#button1 {
+    width: 400px;
+    height: 64px;
+    background-color: #9D9D9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#button2 {
+    width: 400px;
+    height: 64px;
+    background-color: #9D9D9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 74px;
+}
+
+#button1 p, #button2 p {
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 450;
+    color: #FFFFFF;
+    font-family: 'Manrope', 'serif';
+}
+
+#button1 i, #button2 i {
+    color: #FFFFFF;
+}
+
+.upperMainWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upperMainWrapper img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 202px;
+    top: 25px;
+}
+
+.featuredWork {
+    display: flex;
+    gap: 16px;
+    font-family: 'Manrope', 'serif';
+    font-size: 16px;
+    color: #DEDEDE;
+    font-weight: 700;
+    margin-top: 163px;
+}
+
+.mainImageWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 530px;
+}
+
+.imagesPart1 {
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    height: 888px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.imagesPart2 {
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    height: 888px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    top: 115px;
+}
+
+.imgCollection {
+    display: flex;
+    margin-top: 770px;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCollectionPart1 img, .imgCollectionPart2 img {
+    width: 400px;
+    height: 408px;
+}
+
+.imgCollectionPart1, .imgCollectionPart2 {
+    display: flex;
+    gap: 24px;
+}
+
+.imgCollection p {
+    font-family: 'Manrope', 'serif';
+    color: #DEDEDE;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.personalInfoImgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.personalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 240px;
+    gap: 20px;
+}
+
+.personalInfo p {
+    font-family: 'Manrope', 'serif';
+    color: #DEDEDE;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contactMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 465px;
+}
+
+#contactDesc {
+    color: #959595;
+    font-size: 24px;
+    font-weight: 450;
+    font-family: 'Manrope', 'serif';
+    width: 500px;
+    position: relative;
+    bottom: 79px;
+}
+
+#contactBtn1 {
+    color: #DEDEDE;
+    font-size: 36px;
+    font-family: 'Manrope', 'serif';
+    font-weight: 700;
+}
+
+.contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
