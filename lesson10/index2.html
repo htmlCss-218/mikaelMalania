@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <style>
+            .respDesign img {
+                width: 460px;
+                height: 200px;
+            }
+
+            .respDesign {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                padding-top: 50px;
+                position: relative;
+                gap: 10px;
+            }
+
+            
+            @media only screen and (max-width: 767px) {
+                .respDesign::before {
+                    content: "Mobile View";
+                    position: absolute;
+                    top: 10px; 
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #000000;
+                }
+                .respDesign {
+                    background-color: rgb(47, 167, 127);
+                    flex-direction: column;
+                }
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                /* Tablet design two pictures per line */
+                .respDesign::before {
+                    content: "Tablet View";
+                    position: absolute;
+                    top: 10px; 
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                .respDesign {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    background-color: rgb(220, 196, 18);
+                }
+            }
+
+            @media only screen and (min-width: 1024px) {
+                .respDesign::before {
+                    content: "Desktop View";
+                    position: absolute;
+                    top: 10px; 
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                .respDesign {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    background-color: rgb(203, 35, 164);
+                }
+            }
+        </style>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    </head>
+    
+    <body>
+        <div class="respDesign">
+            <!-- Image collection  9 different images-->
+            <img src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-4.0.3" alt="">
+            <img src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-4.0.3" alt="">    
+            <img src="https://images.unsplash.com/photo-1656100727930-1535c759e140?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+    </body>    
+</html>

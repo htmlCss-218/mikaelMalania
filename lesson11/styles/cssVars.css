@@ -1,0 +1,15 @@
+:root {
+    --paragraphText: rgb(226, 67, 43);
+}
+
+#text1 {
+    color: var(--paragraphText);
+}
+
+#text2 {
+    color: var(--paragraphText);
+}
+
+#text3 {
+    color: var(--paragraphText);
+}
