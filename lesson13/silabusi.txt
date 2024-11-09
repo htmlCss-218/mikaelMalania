@@ -1,0 +1,16 @@
+• ჯავასკრიპტის სინტაქსის განხილვა
+• ცვლადები
+• პრიმიტიულ მონაცემთა ტიპები
+• პირობითი გამოსახულება
+• რა არის dom?
+• dom მანიპულაციები ჯავასკრიპტში
+
+https://miro.medium.com/v2/resize:fit:1270/1*SX5-E0EOlfb-HfuttEblHw.png 
+
+
+redredredgreengreengreenblueblueblueblueblackblack
+3red3green4blue2black
+
+
+
+
